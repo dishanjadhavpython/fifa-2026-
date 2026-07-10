@@ -1,0 +1,227 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-noto: "Noto Sans", sans-serif;
+
+  --color-gold: #C9A84C;
+  --color-gold-light: #E8C96A;
+  --color-gold-muted: rgba(201,168,76,0.12);
+  --color-gold-border: rgba(201,168,76,0.18);
+  --color-gold-border-hover: rgba(201,168,76,0.5);
+  
+  --color-dark-bg: #080808;
+  --color-dark-card: #101010;
+  --color-dark-card-alt: #181818;
+  --color-dark-card-hover: #202020;
+  --color-white-alt: #F0EDE8;
+  --color-text-muted-alt: #A3A3A3;
+  --color-text-dim: #5A5A5A;
+
+  --color-confed-uefa: #3B82F6;
+  --color-confed-conmebol: #10B981;
+  --color-confed-concacaf: #F59E0B;
+  --color-confed-caf: #EF4444;
+  --color-confed-afc: #8B5CF6;
+  --color-confed-ofc: #6B7280;
+}
+
+@utility bracket-connector {
+  position: absolute;
+  border-color: #222222;
+  border-style: solid;
+}
+
+@utility winner-connector-glow {
+  box-shadow: 0 0 8px rgba(201, 168, 76, 0.3);
+  border-color: #C9A84C !important;
+}
+
+@utility fade-in {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+@utility scale-up {
+  animation: scaleUp 0.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes growWidth {
+  from {
+    width: 0;
+  }
+}
+
+.animate-grow-width {
+  animation: growWidth 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@layer base {
+  body {
+    @apply bg-dark-bg text-white-alt antialiased selection:bg-gold selection:text-dark-bg;
+    background-color: #080808;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+}
+
+/* Custom scrollbar for premium aesthetics */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 168, 76, 0.12);
+  border: 1px solid #080808;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 168, 76, 0.4);
+}
+
+/* Animations */
+.fade-slide-up {
+  animation: fadeSlideUp 0.25s ease forwards;
+  will-change: transform, opacity;
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.podium-entrance {
+  opacity: 0;
+  transform: translateY(40px);
+  will-change: transform, opacity;
+}
+
+.podium-entrance-active {
+  animation: podiumEntrance 0.6s ease-out forwards;
+}
+
+@keyframes podiumEntrance {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-hover {
+  transition: all 0.15s ease;
+  will-change: transform, box-shadow, border-color;
+}
+
+.card-hover:hover {
+  box-shadow: 0 0 20px rgba(201, 168, 76, 0.12);
+  border-color: rgba(201, 168, 76, 0.4) !important;
+  transform: translateY(-2px);
+}
+
+/* Prefers Reduced Motion Settings */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Gold Glow Animation for Bracket SVG Connectors */
+@keyframes connectorGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 1px rgba(201, 168, 76, 0.3)) drop-shadow(0 0 2px rgba(201, 168, 76, 0.15));
+    stroke: rgba(201, 168, 76, 0.5);
+  }
+  50% {
+    filter: drop-shadow(0 0 4px rgba(201, 168, 76, 0.8)) drop-shadow(0 0 8px rgba(232, 201, 106, 0.4));
+    stroke: rgba(232, 201, 106, 0.95);
+  }
+}
+
+.animate-connector-glow {
+  animation: connectorGlow 3s infinite ease-in-out;
+}
+
+/* Custom scrollbar for container classes */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(201, 168, 76, 0.25) #101010;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #101010;
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(201, 168, 76, 0.25);
+  border-radius: 8px;
+  border: 1px solid #101010;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 168, 76, 0.5);
+}
+
+/* Marquee Running Text Separator Animation */
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-marquee {
+  display: inline-flex;
+  animation: marquee 90s linear infinite;
+  will-change: transform;
+}
+
+.pause-marquee:hover {
+  animation-play-state: paused;
+}
+
+

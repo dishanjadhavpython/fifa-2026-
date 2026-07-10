@@ -1,0 +1,3065 @@
+{
+  "metadata": {
+    "n_simulations": 10000,
+    "model_used": "Logistic Regression",
+    "model_f1_score": 0.5262988864413134,
+    "generated_at": "2026-06-06T13:43:33.955275Z"
+  },
+  "teams": {
+    "Mexico": {
+      "group": "A",
+      "champion_rate": 0.0035,
+      "final_rate": 0.0115,
+      "sf_rate": 0.0115,
+      "qf_rate": 0.0427,
+      "r16_rate": 0.1351,
+      "r32_rate": 0.7657,
+      "group_qualify_rate": 0.7657,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "South Africa",
+            "South Korea",
+            "Czechia"
+          ],
+          "qualify_rate": 0.7657
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Bosnia and Herzegovina",
+          "reach_rate": 0.7657
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.1351
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0427
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0115
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0115
+        }
+      ]
+    },
+    "South Africa": {
+      "group": "A",
+      "champion_rate": 0.0002,
+      "final_rate": 0.0026,
+      "sf_rate": 0.0026,
+      "qf_rate": 0.0113,
+      "r16_rate": 0.0536,
+      "r32_rate": 0.5882,
+      "group_qualify_rate": 0.5882,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Mexico",
+            "South Korea",
+            "Czechia"
+          ],
+          "qualify_rate": 0.5882
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Bosnia and Herzegovina",
+          "reach_rate": 0.5882
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0536
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0113
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0026
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0026
+        }
+      ]
+    },
+    "South Korea": {
+      "group": "A",
+      "champion_rate": 0.0001,
+      "final_rate": 0.0017,
+      "sf_rate": 0.0017,
+      "qf_rate": 0.0115,
+      "r16_rate": 0.0533,
+      "r32_rate": 0.619,
+      "group_qualify_rate": 0.619,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Mexico",
+            "South Africa",
+            "Czechia"
+          ],
+          "qualify_rate": 0.619
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Bosnia and Herzegovina",
+          "reach_rate": 0.619
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0533
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0115
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0017
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0017
+        }
+      ]
+    },
+    "Czechia": {
+      "group": "A",
+      "champion_rate": 0.0002,
+      "final_rate": 0.0015,
+      "sf_rate": 0.0015,
+      "qf_rate": 0.0158,
+      "r16_rate": 0.075,
+      "r32_rate": 0.7482,
+      "group_qualify_rate": 0.7482,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Mexico",
+            "South Africa",
+            "South Korea"
+          ],
+          "qualify_rate": 0.7482
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Bosnia and Herzegovina",
+          "reach_rate": 0.7482
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.075
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0158
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0015
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Netherlands",
+          "reach_rate": 0.0015
+        }
+      ]
+    },
+    "Canada": {
+      "group": "B",
+      "champion_rate": 0.0,
+      "final_rate": 0.0002,
+      "sf_rate": 0.0002,
+      "qf_rate": 0.0015,
+      "r16_rate": 0.0122,
+      "r32_rate": 0.3868,
+      "group_qualify_rate": 0.3868,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Bosnia and Herzegovina",
+            "Qatar",
+            "Switzerland"
+          ],
+          "qualify_rate": 0.3868
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.3868
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0122
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0015
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.0002
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0002
+        }
+      ]
+    },
+    "Bosnia and Herzegovina": {
+      "group": "B",
+      "champion_rate": 0.0046,
+      "final_rate": 0.0192,
+      "sf_rate": 0.0192,
+      "qf_rate": 0.0581,
+      "r16_rate": 0.1769,
+      "r32_rate": 0.9,
+      "group_qualify_rate": 0.9,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Canada",
+            "Qatar",
+            "Switzerland"
+          ],
+          "qualify_rate": 0.9
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Mexico",
+          "reach_rate": 0.9
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.1769
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0581
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0192
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0192
+        }
+      ]
+    },
+    "Qatar": {
+      "group": "B",
+      "champion_rate": 0.0,
+      "final_rate": 0.0,
+      "sf_rate": 0.0,
+      "qf_rate": 0.0013,
+      "r16_rate": 0.0111,
+      "r32_rate": 0.388,
+      "group_qualify_rate": 0.388,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Switzerland"
+          ],
+          "qualify_rate": 0.388
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.388
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0111
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0013
+        }
+      ]
+    },
+    "Switzerland": {
+      "group": "B",
+      "champion_rate": 0.0083,
+      "final_rate": 0.0327,
+      "sf_rate": 0.0327,
+      "qf_rate": 0.0805,
+      "r16_rate": 0.1953,
+      "r32_rate": 0.9591,
+      "group_qualify_rate": 0.9591,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "qualify_rate": 0.9591
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "New Zealand",
+          "reach_rate": 0.9591
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.1953
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Portugal",
+          "reach_rate": 0.0805
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.0327
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0327
+        }
+      ]
+    },
+    "Brazil": {
+      "group": "C",
+      "champion_rate": 0.225,
+      "final_rate": 0.307,
+      "sf_rate": 0.307,
+      "qf_rate": 0.4387,
+      "r16_rate": 0.585,
+      "r32_rate": 0.9876,
+      "group_qualify_rate": 0.9876,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Morocco",
+            "Haiti",
+            "Scotland"
+          ],
+          "qualify_rate": 0.9876
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Sweden",
+          "reach_rate": 0.9876
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.585
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.4387
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.307
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.307
+        }
+      ]
+    },
+    "Morocco": {
+      "group": "C",
+      "champion_rate": 0.0008,
+      "final_rate": 0.0032,
+      "sf_rate": 0.0032,
+      "qf_rate": 0.0194,
+      "r16_rate": 0.0706,
+      "r32_rate": 0.5953,
+      "group_qualify_rate": 0.5953,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Brazil",
+            "Haiti",
+            "Scotland"
+          ],
+          "qualify_rate": 0.5953
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Netherlands",
+          "reach_rate": 0.5953
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0706
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "England",
+          "reach_rate": 0.0194
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0032
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0032
+        }
+      ]
+    },
+    "Haiti": {
+      "group": "C",
+      "champion_rate": 0.0,
+      "final_rate": 0.0,
+      "sf_rate": 0.0,
+      "qf_rate": 0.0001,
+      "r16_rate": 0.0008,
+      "r32_rate": 0.0596,
+      "group_qualify_rate": 0.0596,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Brazil",
+            "Morocco",
+            "Scotland"
+          ],
+          "qualify_rate": 0.0596
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Netherlands",
+          "reach_rate": 0.0596
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "England",
+          "reach_rate": 0.0008
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0001
+        }
+      ]
+    },
+    "Scotland": {
+      "group": "C",
+      "champion_rate": 0.0006,
+      "final_rate": 0.003,
+      "sf_rate": 0.003,
+      "qf_rate": 0.0189,
+      "r16_rate": 0.0711,
+      "r32_rate": 0.909,
+      "group_qualify_rate": 0.909,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Brazil",
+            "Morocco",
+            "Haiti"
+          ],
+          "qualify_rate": 0.909
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Netherlands",
+          "reach_rate": 0.909
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0711
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0189
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.003
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.003
+        }
+      ]
+    },
+    "United States": {
+      "group": "D",
+      "champion_rate": 0.004,
+      "final_rate": 0.0144,
+      "sf_rate": 0.0144,
+      "qf_rate": 0.0482,
+      "r16_rate": 0.1414,
+      "r32_rate": 0.6355,
+      "group_qualify_rate": 0.6355,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Paraguay",
+            "Australia",
+            "Turkey"
+          ],
+          "qualify_rate": 0.6355
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Iran",
+          "reach_rate": 0.6355
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Portugal",
+          "reach_rate": 0.1414
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0482
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.0144
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0144
+        }
+      ]
+    },
+    "Paraguay": {
+      "group": "D",
+      "champion_rate": 0.0034,
+      "final_rate": 0.0157,
+      "sf_rate": 0.0157,
+      "qf_rate": 0.0445,
+      "r16_rate": 0.1347,
+      "r32_rate": 0.6642,
+      "group_qualify_rate": 0.6642,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "United States",
+            "Australia",
+            "Turkey"
+          ],
+          "qualify_rate": 0.6642
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Iran",
+          "reach_rate": 0.6642
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Portugal",
+          "reach_rate": 0.1347
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0445
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.0157
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0157
+        }
+      ]
+    },
+    "Australia": {
+      "group": "D",
+      "champion_rate": 0.0001,
+      "final_rate": 0.0012,
+      "sf_rate": 0.0012,
+      "qf_rate": 0.0052,
+      "r16_rate": 0.0398,
+      "r32_rate": 0.4438,
+      "group_qualify_rate": 0.4438,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "United States",
+            "Paraguay",
+            "Turkey"
+          ],
+          "qualify_rate": 0.4438
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.4438
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Portugal",
+          "reach_rate": 0.0398
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0052
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.0012
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0012
+        }
+      ]
+    },
+    "Turkey": {
+      "group": "D",
+      "champion_rate": 0.0529,
+      "final_rate": 0.1241,
+      "sf_rate": 0.1241,
+      "qf_rate": 0.2427,
+      "r16_rate": 0.4453,
+      "r32_rate": 0.9349,
+      "group_qualify_rate": 0.9349,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "United States",
+            "Paraguay",
+            "Australia"
+          ],
+          "qualify_rate": 0.9349
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Canada",
+          "reach_rate": 0.9349
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Belgium",
+          "reach_rate": 0.4453
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.2427
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.1241
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.1241
+        }
+      ]
+    },
+    "Germany": {
+      "group": "E",
+      "champion_rate": 0.136,
+      "final_rate": 0.2122,
+      "sf_rate": 0.2122,
+      "qf_rate": 0.3658,
+      "r16_rate": 0.6419,
+      "r32_rate": 0.9795,
+      "group_qualify_rate": 0.9795,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Curacao",
+            "Ivory Coast",
+            "Ecuador"
+          ],
+          "qualify_rate": 0.9795
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Senegal",
+          "reach_rate": 0.9795
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Bosnia and Herzegovina",
+          "reach_rate": 0.6419
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.3658
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.2122
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.2122
+        }
+      ]
+    },
+    "Curacao": {
+      "group": "E",
+      "champion_rate": 0.0,
+      "final_rate": 0.0003,
+      "sf_rate": 0.0003,
+      "qf_rate": 0.0017,
+      "r16_rate": 0.012,
+      "r32_rate": 0.2278,
+      "group_qualify_rate": 0.2278,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador"
+          ],
+          "qualify_rate": 0.2278
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Senegal",
+          "reach_rate": 0.2278
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.012
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0017
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.0003
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.0003
+        }
+      ]
+    },
+    "Ivory Coast": {
+      "group": "E",
+      "champion_rate": 0.0015,
+      "final_rate": 0.0082,
+      "sf_rate": 0.0082,
+      "qf_rate": 0.0352,
+      "r16_rate": 0.1226,
+      "r32_rate": 0.6986,
+      "group_qualify_rate": 0.6986,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Germany",
+            "Curacao",
+            "Ecuador"
+          ],
+          "qualify_rate": 0.6986
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Senegal",
+          "reach_rate": 0.6986
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.1226
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0352
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0082
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0082
+        }
+      ]
+    },
+    "Ecuador": {
+      "group": "E",
+      "champion_rate": 0.0029,
+      "final_rate": 0.0117,
+      "sf_rate": 0.0117,
+      "qf_rate": 0.0386,
+      "r16_rate": 0.131,
+      "r32_rate": 0.7538,
+      "group_qualify_rate": 0.7538,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Germany",
+            "Curacao",
+            "Ivory Coast"
+          ],
+          "qualify_rate": 0.7538
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Senegal",
+          "reach_rate": 0.7538
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.131
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0386
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0117
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0117
+        }
+      ]
+    },
+    "Netherlands": {
+      "group": "F",
+      "champion_rate": 0.0467,
+      "final_rate": 0.0921,
+      "sf_rate": 0.0921,
+      "qf_rate": 0.2007,
+      "r16_rate": 0.332,
+      "r32_rate": 0.9328,
+      "group_qualify_rate": 0.9328,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "qualify_rate": 0.9328
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Scotland",
+          "reach_rate": 0.9328
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.332
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "England",
+          "reach_rate": 0.2007
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0921
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0921
+        }
+      ]
+    },
+    "Japan": {
+      "group": "F",
+      "champion_rate": 0.0003,
+      "final_rate": 0.003,
+      "sf_rate": 0.003,
+      "qf_rate": 0.0109,
+      "r16_rate": 0.0462,
+      "r32_rate": 0.54,
+      "group_qualify_rate": 0.54,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Netherlands",
+            "Sweden",
+            "Tunisia"
+          ],
+          "qualify_rate": 0.54
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.54
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0462
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0109
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.003
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.003
+        }
+      ]
+    },
+    "Sweden": {
+      "group": "F",
+      "champion_rate": 0.0112,
+      "final_rate": 0.0247,
+      "sf_rate": 0.0247,
+      "qf_rate": 0.0745,
+      "r16_rate": 0.1739,
+      "r32_rate": 0.8552,
+      "group_qualify_rate": 0.8552,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Netherlands",
+            "Japan",
+            "Tunisia"
+          ],
+          "qualify_rate": 0.8552
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.8552
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.1739
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0745
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0247
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0247
+        }
+      ]
+    },
+    "Tunisia": {
+      "group": "F",
+      "champion_rate": 0.0001,
+      "final_rate": 0.0014,
+      "sf_rate": 0.0014,
+      "qf_rate": 0.0051,
+      "r16_rate": 0.025,
+      "r32_rate": 0.417,
+      "group_qualify_rate": 0.417,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Netherlands",
+            "Japan",
+            "Sweden"
+          ],
+          "qualify_rate": 0.417
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.417
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.025
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "England",
+          "reach_rate": 0.0051
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0014
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0014
+        }
+      ]
+    },
+    "Belgium": {
+      "group": "G",
+      "champion_rate": 0.0185,
+      "final_rate": 0.0542,
+      "sf_rate": 0.0542,
+      "qf_rate": 0.133,
+      "r16_rate": 0.2792,
+      "r32_rate": 0.9386,
+      "group_qualify_rate": 0.9386,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "qualify_rate": 0.9386
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "South Africa",
+          "reach_rate": 0.9386
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.2792
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.133
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0542
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0542
+        }
+      ]
+    },
+    "Egypt": {
+      "group": "G",
+      "champion_rate": 0.0001,
+      "final_rate": 0.0016,
+      "sf_rate": 0.0016,
+      "qf_rate": 0.0082,
+      "r16_rate": 0.0375,
+      "r32_rate": 0.5735,
+      "group_qualify_rate": 0.5735,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Belgium",
+            "Iran",
+            "New Zealand"
+          ],
+          "qualify_rate": 0.5735
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Paraguay",
+          "reach_rate": 0.5735
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Portugal",
+          "reach_rate": 0.0375
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.0082
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.0016
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0016
+        }
+      ]
+    },
+    "Iran": {
+      "group": "G",
+      "champion_rate": 0.0001,
+      "final_rate": 0.0016,
+      "sf_rate": 0.0016,
+      "qf_rate": 0.0083,
+      "r16_rate": 0.0443,
+      "r32_rate": 0.6801,
+      "group_qualify_rate": 0.6801,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Belgium",
+            "Egypt",
+            "New Zealand"
+          ],
+          "qualify_rate": 0.6801
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Paraguay",
+          "reach_rate": 0.6801
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Portugal",
+          "reach_rate": 0.0443
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0083
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0016
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0016
+        }
+      ]
+    },
+    "New Zealand": {
+      "group": "G",
+      "champion_rate": 0.0,
+      "final_rate": 0.0,
+      "sf_rate": 0.0,
+      "qf_rate": 0.0005,
+      "r16_rate": 0.006,
+      "r32_rate": 0.4335,
+      "group_qualify_rate": 0.4335,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Belgium",
+            "Egypt",
+            "Iran"
+          ],
+          "qualify_rate": 0.4335
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Switzerland",
+          "reach_rate": 0.4335
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Portugal",
+          "reach_rate": 0.006
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Uruguay",
+          "reach_rate": 0.0005
+        }
+      ]
+    },
+    "Spain": {
+      "group": "H",
+      "champion_rate": 0.0603,
+      "final_rate": 0.1361,
+      "sf_rate": 0.1361,
+      "qf_rate": 0.2408,
+      "r16_rate": 0.3832,
+      "r32_rate": 0.9518,
+      "group_qualify_rate": 0.9518,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Cape Verde",
+            "Saudi Arabia",
+            "Uruguay"
+          ],
+          "qualify_rate": 0.9518
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.9518
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "England",
+          "reach_rate": 0.3832
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.2408
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.1361
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.1361
+        }
+      ]
+    },
+    "Cape Verde": {
+      "group": "H",
+      "champion_rate": 0.0,
+      "final_rate": 0.0003,
+      "sf_rate": 0.0003,
+      "qf_rate": 0.0024,
+      "r16_rate": 0.0157,
+      "r32_rate": 0.2948,
+      "group_qualify_rate": 0.2948,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Spain",
+            "Saudi Arabia",
+            "Uruguay"
+          ],
+          "qualify_rate": 0.2948
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.2948
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "England",
+          "reach_rate": 0.0157
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Colombia",
+          "reach_rate": 0.0024
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.0003
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0003
+        }
+      ]
+    },
+    "Saudi Arabia": {
+      "group": "H",
+      "champion_rate": 0.0001,
+      "final_rate": 0.0008,
+      "sf_rate": 0.0008,
+      "qf_rate": 0.0043,
+      "r16_rate": 0.0177,
+      "r32_rate": 0.3463,
+      "group_qualify_rate": 0.3463,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay"
+          ],
+          "qualify_rate": 0.3463
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.3463
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Switzerland",
+          "reach_rate": 0.0177
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Portugal",
+          "reach_rate": 0.0043
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.0008
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0008
+        }
+      ]
+    },
+    "Uruguay": {
+      "group": "H",
+      "champion_rate": 0.0364,
+      "final_rate": 0.0926,
+      "sf_rate": 0.0926,
+      "qf_rate": 0.1813,
+      "r16_rate": 0.3145,
+      "r32_rate": 0.9276,
+      "group_qualify_rate": 0.9276,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Spain",
+            "Cape Verde",
+            "Saudi Arabia"
+          ],
+          "qualify_rate": 0.9276
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.9276
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Switzerland",
+          "reach_rate": 0.3145
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.1813
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.0926
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0926
+        }
+      ]
+    },
+    "France": {
+      "group": "I",
+      "champion_rate": 0.127,
+      "final_rate": 0.2107,
+      "sf_rate": 0.2107,
+      "qf_rate": 0.3726,
+      "r16_rate": 0.549,
+      "r32_rate": 0.9736,
+      "group_qualify_rate": 0.9736,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Senegal",
+            "Iraq",
+            "Norway"
+          ],
+          "qualify_rate": 0.9736
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Ecuador",
+          "reach_rate": 0.9736
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Netherlands",
+          "reach_rate": 0.549
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "England",
+          "reach_rate": 0.3726
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.2107
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.2107
+        }
+      ]
+    },
+    "Senegal": {
+      "group": "I",
+      "champion_rate": 0.0052,
+      "final_rate": 0.0173,
+      "sf_rate": 0.0173,
+      "qf_rate": 0.0593,
+      "r16_rate": 0.1596,
+      "r32_rate": 0.7769,
+      "group_qualify_rate": 0.7769,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "France",
+            "Iraq",
+            "Norway"
+          ],
+          "qualify_rate": 0.7769
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Ecuador",
+          "reach_rate": 0.7769
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.1596
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0593
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0173
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0173
+        }
+      ]
+    },
+    "Iraq": {
+      "group": "I",
+      "champion_rate": 0.0,
+      "final_rate": 0.0003,
+      "sf_rate": 0.0003,
+      "qf_rate": 0.0009,
+      "r16_rate": 0.0086,
+      "r32_rate": 0.2352,
+      "group_qualify_rate": 0.2352,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "France",
+            "Senegal",
+            "Norway"
+          ],
+          "qualify_rate": 0.2352
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Ecuador",
+          "reach_rate": 0.2352
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0086
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0009
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0003
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0003
+        }
+      ]
+    },
+    "Norway": {
+      "group": "I",
+      "champion_rate": 0.0006,
+      "final_rate": 0.0028,
+      "sf_rate": 0.0028,
+      "qf_rate": 0.0174,
+      "r16_rate": 0.0683,
+      "r32_rate": 0.6449,
+      "group_qualify_rate": 0.6449,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "France",
+            "Senegal",
+            "Iraq"
+          ],
+          "qualify_rate": 0.6449
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Ecuador",
+          "reach_rate": 0.6449
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0683
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Germany",
+          "reach_rate": 0.0174
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0028
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0028
+        }
+      ]
+    },
+    "Argentina": {
+      "group": "J",
+      "champion_rate": 0.0956,
+      "final_rate": 0.1958,
+      "sf_rate": 0.1958,
+      "qf_rate": 0.3033,
+      "r16_rate": 0.4403,
+      "r32_rate": 0.9517,
+      "group_qualify_rate": 0.9517,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Algeria",
+            "Austria",
+            "Jordan"
+          ],
+          "qualify_rate": 0.9517
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Uruguay",
+          "reach_rate": 0.9517
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Switzerland",
+          "reach_rate": 0.4403
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Portugal",
+          "reach_rate": 0.3033
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.1958
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.1958
+        }
+      ]
+    },
+    "Algeria": {
+      "group": "J",
+      "champion_rate": 0.0014,
+      "final_rate": 0.0041,
+      "sf_rate": 0.0041,
+      "qf_rate": 0.0151,
+      "r16_rate": 0.0567,
+      "r32_rate": 0.5419,
+      "group_qualify_rate": 0.5419,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Argentina",
+            "Austria",
+            "Jordan"
+          ],
+          "qualify_rate": 0.5419
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.5419
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.0567
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Portugal",
+          "reach_rate": 0.0151
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0041
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0041
+        }
+      ]
+    },
+    "Austria": {
+      "group": "J",
+      "champion_rate": 0.007,
+      "final_rate": 0.0261,
+      "sf_rate": 0.0261,
+      "qf_rate": 0.0723,
+      "r16_rate": 0.1605,
+      "r32_rate": 0.8163,
+      "group_qualify_rate": 0.8163,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Argentina",
+            "Algeria",
+            "Jordan"
+          ],
+          "qualify_rate": 0.8163
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.8163
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "England",
+          "reach_rate": 0.1605
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.0723
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0261
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0261
+        }
+      ]
+    },
+    "Jordan": {
+      "group": "J",
+      "champion_rate": 0.0002,
+      "final_rate": 0.0012,
+      "sf_rate": 0.0012,
+      "qf_rate": 0.0052,
+      "r16_rate": 0.0247,
+      "r32_rate": 0.4357,
+      "group_qualify_rate": 0.4357,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Argentina",
+            "Algeria",
+            "Austria"
+          ],
+          "qualify_rate": 0.4357
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.4357
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.0247
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.0052
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0012
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0012
+        }
+      ]
+    },
+    "Portugal": {
+      "group": "K",
+      "champion_rate": 0.0458,
+      "final_rate": 0.1087,
+      "sf_rate": 0.1087,
+      "qf_rate": 0.2014,
+      "r16_rate": 0.3962,
+      "r32_rate": 0.9608,
+      "group_qualify_rate": 0.9608,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "DR Congo",
+            "Uzbekistan",
+            "Colombia"
+          ],
+          "qualify_rate": 0.9608
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Croatia",
+          "reach_rate": 0.9608
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.3962
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.2014
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Turkey",
+          "reach_rate": 0.1087
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.1087
+        }
+      ]
+    },
+    "DR Congo": {
+      "group": "K",
+      "champion_rate": 0.0,
+      "final_rate": 0.0,
+      "sf_rate": 0.0,
+      "qf_rate": 0.0,
+      "r16_rate": 0.0004,
+      "r32_rate": 0.0487,
+      "group_qualify_rate": 0.0487,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Portugal",
+            "Uzbekistan",
+            "Colombia"
+          ],
+          "qualify_rate": 0.0487
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "England",
+          "reach_rate": 0.0487
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Mexico",
+          "reach_rate": 0.0004
+        }
+      ]
+    },
+    "Uzbekistan": {
+      "group": "K",
+      "champion_rate": 0.0001,
+      "final_rate": 0.001,
+      "sf_rate": 0.001,
+      "qf_rate": 0.0072,
+      "r16_rate": 0.0438,
+      "r32_rate": 0.8504,
+      "group_qualify_rate": 0.8504,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Portugal",
+            "DR Congo",
+            "Colombia"
+          ],
+          "qualify_rate": 0.8504
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "England",
+          "reach_rate": 0.8504
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.0438
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0072
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.001
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Colombia",
+          "reach_rate": 0.001
+        }
+      ]
+    },
+    "Colombia": {
+      "group": "K",
+      "champion_rate": 0.0127,
+      "final_rate": 0.0423,
+      "sf_rate": 0.0423,
+      "qf_rate": 0.1108,
+      "r16_rate": 0.2751,
+      "r32_rate": 0.9864,
+      "group_qualify_rate": 0.9864,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Portugal",
+            "DR Congo",
+            "Uzbekistan"
+          ],
+          "qualify_rate": 0.9864
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Croatia",
+          "reach_rate": 0.9864
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.2751
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.1108
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Portugal",
+          "reach_rate": 0.0423
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0423
+        }
+      ]
+    },
+    "England": {
+      "group": "L",
+      "champion_rate": 0.0607,
+      "final_rate": 0.1318,
+      "sf_rate": 0.1318,
+      "qf_rate": 0.2757,
+      "r16_rate": 0.5076,
+      "r32_rate": 0.9166,
+      "group_qualify_rate": 0.9166,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "qualify_rate": 0.9166
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Uzbekistan",
+          "reach_rate": 0.9166
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.5076
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.2757
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.1318
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.1318
+        }
+      ]
+    },
+    "Croatia": {
+      "group": "L",
+      "champion_rate": 0.0223,
+      "final_rate": 0.0629,
+      "sf_rate": 0.0629,
+      "qf_rate": 0.1521,
+      "r16_rate": 0.3427,
+      "r32_rate": 0.841,
+      "group_qualify_rate": 0.841,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "England",
+            "Ghana",
+            "Panama"
+          ],
+          "qualify_rate": 0.841
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Colombia",
+          "reach_rate": 0.841
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.3427
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.1521
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0629
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0629
+        }
+      ]
+    },
+    "Ghana": {
+      "group": "L",
+      "champion_rate": 0.0035,
+      "final_rate": 0.0162,
+      "sf_rate": 0.0162,
+      "qf_rate": 0.0548,
+      "r16_rate": 0.1786,
+      "r32_rate": 0.7173,
+      "group_qualify_rate": 0.7173,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "England",
+            "Croatia",
+            "Panama"
+          ],
+          "qualify_rate": 0.7173
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Colombia",
+          "reach_rate": 0.7173
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.1786
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "France",
+          "reach_rate": 0.0548
+        },
+        {
+          "round": "SF",
+          "most_likely_opponent": "Argentina",
+          "reach_rate": 0.0162
+        },
+        {
+          "round": "Final",
+          "most_likely_opponent": "Brazil",
+          "reach_rate": 0.0162
+        }
+      ]
+    },
+    "Panama": {
+      "group": "L",
+      "champion_rate": 0.0,
+      "final_rate": 0.0,
+      "sf_rate": 0.0,
+      "qf_rate": 0.0002,
+      "r16_rate": 0.004,
+      "r32_rate": 0.1668,
+      "group_qualify_rate": 0.1668,
+      "most_likely_path": [
+        {
+          "round": "Group Stage",
+          "opponents": [
+            "England",
+            "Croatia",
+            "Ghana"
+          ],
+          "qualify_rate": 0.1668
+        },
+        {
+          "round": "R32",
+          "most_likely_opponent": "Portugal",
+          "reach_rate": 0.1668
+        },
+        {
+          "round": "R16",
+          "most_likely_opponent": "Spain",
+          "reach_rate": 0.004
+        },
+        {
+          "round": "QF",
+          "most_likely_opponent": "Uruguay",
+          "reach_rate": 0.0002
+        }
+      ]
+    }
+  },
+  "most_likely_champion": "Brazil",
+  "most_likely_finalist": [
+    "Brazil",
+    "Germany"
+  ],
+  "most_likely_semifinalists": [
+    "Brazil",
+    "Germany",
+    "France",
+    "Argentina"
+  ],
+  "bracket": {
+    "group_stage": {
+      "A": [
+        {
+          "home": "Mexico",
+          "away": "South Africa",
+          "home_win_prob": 0.3832004272283828,
+          "draw_prob": 0.367733899253321,
+          "away_win_prob": 0.2490656735182962,
+          "predicted_winner": "Mexico"
+        },
+        {
+          "home": "Mexico",
+          "away": "South Korea",
+          "home_win_prob": 0.2640909946374206,
+          "draw_prob": 0.5675575327473147,
+          "away_win_prob": 0.16835147261526462,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Mexico",
+          "away": "Czechia",
+          "home_win_prob": 0.3789015189257021,
+          "draw_prob": 0.34048981843215814,
+          "away_win_prob": 0.28060866264213985,
+          "predicted_winner": "Mexico"
+        },
+        {
+          "home": "South Africa",
+          "away": "South Korea",
+          "home_win_prob": 0.17857231401226273,
+          "draw_prob": 0.581639327645193,
+          "away_win_prob": 0.23978835834254428,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "South Africa",
+          "away": "Czechia",
+          "home_win_prob": 0.2549750326179814,
+          "draw_prob": 0.3472632113269666,
+          "away_win_prob": 0.3977617560550521,
+          "predicted_winner": "Czechia"
+        },
+        {
+          "home": "South Korea",
+          "away": "Czechia",
+          "home_win_prob": 0.31262582623203794,
+          "draw_prob": 0.19012418086587018,
+          "away_win_prob": 0.49724999290209193,
+          "predicted_winner": "Czechia"
+        }
+      ],
+      "B": [
+        {
+          "home": "Canada",
+          "away": "Bosnia and Herzegovina",
+          "home_win_prob": 0.10501368850172617,
+          "draw_prob": 0.15466824842753277,
+          "away_win_prob": 0.740318063070741,
+          "predicted_winner": "Bosnia and Herzegovina"
+        },
+        {
+          "home": "Canada",
+          "away": "Qatar",
+          "home_win_prob": 0.28335345430844805,
+          "draw_prob": 0.44792469601203316,
+          "away_win_prob": 0.26872184967951884,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Canada",
+          "away": "Switzerland",
+          "home_win_prob": 0.07713941848635786,
+          "draw_prob": 0.2534421306376356,
+          "away_win_prob": 0.6694184508760066,
+          "predicted_winner": "Switzerland"
+        },
+        {
+          "home": "Bosnia and Herzegovina",
+          "away": "Qatar",
+          "home_win_prob": 0.36427048146583774,
+          "draw_prob": 0.5686384747871975,
+          "away_win_prob": 0.06709104374696472,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Bosnia and Herzegovina",
+          "away": "Switzerland",
+          "home_win_prob": 0.16864065816887036,
+          "draw_prob": 0.5471425675652827,
+          "away_win_prob": 0.2842167742658469,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Qatar",
+          "away": "Switzerland",
+          "home_win_prob": 0.060419465012074916,
+          "draw_prob": 0.18263913820924602,
+          "away_win_prob": 0.7569413967786791,
+          "predicted_winner": "Switzerland"
+        }
+      ],
+      "C": [
+        {
+          "home": "Brazil",
+          "away": "Morocco",
+          "home_win_prob": 0.7123314942281281,
+          "draw_prob": 0.20868834119570756,
+          "away_win_prob": 0.0789801645761643,
+          "predicted_winner": "Brazil"
+        },
+        {
+          "home": "Brazil",
+          "away": "Haiti",
+          "home_win_prob": 0.6381538059576675,
+          "draw_prob": 0.36006475099770363,
+          "away_win_prob": 0.00178144304462882,
+          "predicted_winner": "Brazil"
+        },
+        {
+          "home": "Brazil",
+          "away": "Scotland",
+          "home_win_prob": 0.7391774233578392,
+          "draw_prob": 0.20071026579145515,
+          "away_win_prob": 0.06011231085070568,
+          "predicted_winner": "Brazil"
+        },
+        {
+          "home": "Morocco",
+          "away": "Haiti",
+          "home_win_prob": 0.26071669390718816,
+          "draw_prob": 0.7302962373633576,
+          "away_win_prob": 0.008987068729454303,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Morocco",
+          "away": "Scotland",
+          "home_win_prob": 0.29831049005854426,
+          "draw_prob": 0.4021280766502955,
+          "away_win_prob": 0.2995614332911604,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Haiti",
+          "away": "Scotland",
+          "home_win_prob": 0.02404732558950208,
+          "draw_prob": 0.01683152442232669,
+          "away_win_prob": 0.9591211499881712,
+          "predicted_winner": "Scotland"
+        }
+      ],
+      "D": [
+        {
+          "home": "United States",
+          "away": "Paraguay",
+          "home_win_prob": 0.2957367583942581,
+          "draw_prob": 0.30752008576199236,
+          "away_win_prob": 0.3967431558437496,
+          "predicted_winner": "Paraguay"
+        },
+        {
+          "home": "United States",
+          "away": "Australia",
+          "home_win_prob": 0.36515467294052384,
+          "draw_prob": 0.41709993096647435,
+          "away_win_prob": 0.2177453960930019,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "United States",
+          "away": "Turkey",
+          "home_win_prob": 0.13941526055290698,
+          "draw_prob": 0.3548000686119759,
+          "away_win_prob": 0.5057846708351171,
+          "predicted_winner": "Turkey"
+        },
+        {
+          "home": "Paraguay",
+          "away": "Australia",
+          "home_win_prob": 0.3118927117132278,
+          "draw_prob": 0.4983004992645739,
+          "away_win_prob": 0.18980678902219816,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Paraguay",
+          "away": "Turkey",
+          "home_win_prob": 0.12103586601675646,
+          "draw_prob": 0.4308343313845968,
+          "away_win_prob": 0.4481298025986468,
+          "predicted_winner": "Turkey"
+        },
+        {
+          "home": "Australia",
+          "away": "Turkey",
+          "home_win_prob": 0.07955466517049092,
+          "draw_prob": 0.2577904336541635,
+          "away_win_prob": 0.6626549011753456,
+          "predicted_winner": "Turkey"
+        }
+      ],
+      "E": [
+        {
+          "home": "Germany",
+          "away": "Curacao",
+          "home_win_prob": 0.8321556260278695,
+          "draw_prob": 0.12481266393984579,
+          "away_win_prob": 0.04303171003228476,
+          "predicted_winner": "Germany"
+        },
+        {
+          "home": "Germany",
+          "away": "Ivory Coast",
+          "home_win_prob": 0.6437314871081405,
+          "draw_prob": 0.23514737946383163,
+          "away_win_prob": 0.12112113342802784,
+          "predicted_winner": "Germany"
+        },
+        {
+          "home": "Germany",
+          "away": "Ecuador",
+          "home_win_prob": 0.707421059500923,
+          "draw_prob": 0.15800134929234408,
+          "away_win_prob": 0.13457759120673293,
+          "predicted_winner": "Germany"
+        },
+        {
+          "home": "Curacao",
+          "away": "Ivory Coast",
+          "home_win_prob": 0.10500007248415281,
+          "draw_prob": 0.3719305996777115,
+          "away_win_prob": 0.5230693278381358,
+          "predicted_winner": "Ivory Coast"
+        },
+        {
+          "home": "Curacao",
+          "away": "Ecuador",
+          "home_win_prob": 0.1219134027026234,
+          "draw_prob": 0.26404088823009797,
+          "away_win_prob": 0.6140457090672786,
+          "predicted_winner": "Ecuador"
+        },
+        {
+          "home": "Ivory Coast",
+          "away": "Ecuador",
+          "home_win_prob": 0.3054795754217689,
+          "draw_prob": 0.27165682378413203,
+          "away_win_prob": 0.42286360079409896,
+          "predicted_winner": "Ecuador"
+        }
+      ],
+      "F": [
+        {
+          "home": "Netherlands",
+          "away": "Japan",
+          "home_win_prob": 0.5426003400989174,
+          "draw_prob": 0.3385299356340778,
+          "away_win_prob": 0.1188697242670048,
+          "predicted_winner": "Netherlands"
+        },
+        {
+          "home": "Netherlands",
+          "away": "Sweden",
+          "home_win_prob": 0.2826419791901829,
+          "draw_prob": 0.5410969793210809,
+          "away_win_prob": 0.1762610414887362,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Netherlands",
+          "away": "Tunisia",
+          "home_win_prob": 0.6922600930981587,
+          "draw_prob": 0.2145456700924911,
+          "away_win_prob": 0.09319423680935021,
+          "predicted_winner": "Netherlands"
+        },
+        {
+          "home": "Japan",
+          "away": "Sweden",
+          "home_win_prob": 0.10683555188546534,
+          "draw_prob": 0.4767912145192868,
+          "away_win_prob": 0.4163732335952479,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Japan",
+          "away": "Tunisia",
+          "home_win_prob": 0.3900446372776887,
+          "draw_prob": 0.2817985612915863,
+          "away_win_prob": 0.32815680143072495,
+          "predicted_winner": "Japan"
+        },
+        {
+          "home": "Sweden",
+          "away": "Tunisia",
+          "home_win_prob": 0.6531646359846413,
+          "draw_prob": 0.1537891499095204,
+          "away_win_prob": 0.1930462141058384,
+          "predicted_winner": "Sweden"
+        }
+      ],
+      "G": [
+        {
+          "home": "Belgium",
+          "away": "Egypt",
+          "home_win_prob": 0.5567266148171042,
+          "draw_prob": 0.292845174217326,
+          "away_win_prob": 0.1504282109655698,
+          "predicted_winner": "Belgium"
+        },
+        {
+          "home": "Belgium",
+          "away": "Iran",
+          "home_win_prob": 0.5215918923371364,
+          "draw_prob": 0.32233254733541233,
+          "away_win_prob": 0.15607556032745126,
+          "predicted_winner": "Belgium"
+        },
+        {
+          "home": "Belgium",
+          "away": "New Zealand",
+          "home_win_prob": 0.5146159467529295,
+          "draw_prob": 0.43374963168879654,
+          "away_win_prob": 0.05163442155827392,
+          "predicted_winner": "Belgium"
+        },
+        {
+          "home": "Egypt",
+          "away": "Iran",
+          "home_win_prob": 0.23669168865094833,
+          "draw_prob": 0.4044373610684111,
+          "away_win_prob": 0.35887095028064053,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Egypt",
+          "away": "New Zealand",
+          "home_win_prob": 0.26049052645059523,
+          "draw_prob": 0.6070755531176328,
+          "away_win_prob": 0.13243392043177188,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Iran",
+          "away": "New Zealand",
+          "home_win_prob": 0.29046368037032033,
+          "draw_prob": 0.5761895883882616,
+          "away_win_prob": 0.133346731241418,
+          "predicted_winner": "Draw"
+        }
+      ],
+      "H": [
+        {
+          "home": "Spain",
+          "away": "Cape Verde",
+          "home_win_prob": 0.7639930752449088,
+          "draw_prob": 0.15148437848864005,
+          "away_win_prob": 0.08452254626645109,
+          "predicted_winner": "Spain"
+        },
+        {
+          "home": "Spain",
+          "away": "Saudi Arabia",
+          "home_win_prob": 0.6399579917768629,
+          "draw_prob": 0.28798058265819515,
+          "away_win_prob": 0.07206142556494197,
+          "predicted_winner": "Spain"
+        },
+        {
+          "home": "Spain",
+          "away": "Uruguay",
+          "home_win_prob": 0.2974594936612171,
+          "draw_prob": 0.4284253398933225,
+          "away_win_prob": 0.2741151664454604,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Cape Verde",
+          "away": "Saudi Arabia",
+          "home_win_prob": 0.17561303088683575,
+          "draw_prob": 0.5796703274732665,
+          "away_win_prob": 0.24471664163989784,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Cape Verde",
+          "away": "Uruguay",
+          "home_win_prob": 0.043537213955747604,
+          "draw_prob": 0.4599605050291056,
+          "away_win_prob": 0.4965022810151469,
+          "predicted_winner": "Uruguay"
+        },
+        {
+          "home": "Saudi Arabia",
+          "away": "Uruguay",
+          "home_win_prob": 0.05931348848879484,
+          "draw_prob": 0.2761086825099393,
+          "away_win_prob": 0.6645778290012658,
+          "predicted_winner": "Uruguay"
+        }
+      ],
+      "I": [
+        {
+          "home": "France",
+          "away": "Senegal",
+          "home_win_prob": 0.5480535164373502,
+          "draw_prob": 0.2849657592757385,
+          "away_win_prob": 0.16698072428691133,
+          "predicted_winner": "France"
+        },
+        {
+          "home": "France",
+          "away": "Iraq",
+          "home_win_prob": 0.7951381023513042,
+          "draw_prob": 0.1638074475536216,
+          "away_win_prob": 0.041054450095074115,
+          "predicted_winner": "France"
+        },
+        {
+          "home": "France",
+          "away": "Norway",
+          "home_win_prob": 0.6166861237580341,
+          "draw_prob": 0.299038725421806,
+          "away_win_prob": 0.08427515082015986,
+          "predicted_winner": "France"
+        },
+        {
+          "home": "Senegal",
+          "away": "Iraq",
+          "home_win_prob": 0.5530162286717301,
+          "draw_prob": 0.3186766647492146,
+          "away_win_prob": 0.12830710657905545,
+          "predicted_winner": "Senegal"
+        },
+        {
+          "home": "Senegal",
+          "away": "Norway",
+          "home_win_prob": 0.33664617492029697,
+          "draw_prob": 0.4566234906504515,
+          "away_win_prob": 0.20673033442925162,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Iraq",
+          "away": "Norway",
+          "home_win_prob": 0.12426718076135754,
+          "draw_prob": 0.4254217049028078,
+          "away_win_prob": 0.4503111143358347,
+          "predicted_winner": "Norway"
+        }
+      ],
+      "J": [
+        {
+          "home": "Argentina",
+          "away": "Algeria",
+          "home_win_prob": 0.617760881532294,
+          "draw_prob": 0.26433512384204644,
+          "away_win_prob": 0.11790399462565941,
+          "predicted_winner": "Argentina"
+        },
+        {
+          "home": "Argentina",
+          "away": "Austria",
+          "home_win_prob": 0.40215452557836295,
+          "draw_prob": 0.42671647146758834,
+          "away_win_prob": 0.17112900295404865,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Argentina",
+          "away": "Jordan",
+          "home_win_prob": 0.7895738235555088,
+          "draw_prob": 0.12038614775851741,
+          "away_win_prob": 0.09004002868597381,
+          "predicted_winner": "Argentina"
+        },
+        {
+          "home": "Algeria",
+          "away": "Austria",
+          "home_win_prob": 0.13056228536076703,
+          "draw_prob": 0.4708913789942145,
+          "away_win_prob": 0.39854633564501846,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Algeria",
+          "away": "Jordan",
+          "home_win_prob": 0.42802926072680814,
+          "draw_prob": 0.22182668246144016,
+          "away_win_prob": 0.3501440568117517,
+          "predicted_winner": "Algeria"
+        },
+        {
+          "home": "Austria",
+          "away": "Jordan",
+          "home_win_prob": 0.6345604706341607,
+          "draw_prob": 0.13261766078850787,
+          "away_win_prob": 0.2328218685773314,
+          "predicted_winner": "Austria"
+        }
+      ],
+      "K": [
+        {
+          "home": "Portugal",
+          "away": "DR Congo",
+          "home_win_prob": 0.6408974837027435,
+          "draw_prob": 0.3524892416872214,
+          "away_win_prob": 0.006613274610035094,
+          "predicted_winner": "Portugal"
+        },
+        {
+          "home": "Portugal",
+          "away": "Uzbekistan",
+          "home_win_prob": 0.7502165242903612,
+          "draw_prob": 0.15052507715769128,
+          "away_win_prob": 0.09925839855194753,
+          "predicted_winner": "Portugal"
+        },
+        {
+          "home": "Portugal",
+          "away": "Colombia",
+          "home_win_prob": 0.33990214748245656,
+          "draw_prob": 0.40032151516035436,
+          "away_win_prob": 0.259776337357189,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "DR Congo",
+          "away": "Uzbekistan",
+          "home_win_prob": 0.0523966324174586,
+          "draw_prob": 0.027800930230087464,
+          "away_win_prob": 0.9198024373524537,
+          "predicted_winner": "Uzbekistan"
+        },
+        {
+          "home": "DR Congo",
+          "away": "Colombia",
+          "home_win_prob": 0.009476987039686413,
+          "draw_prob": 0.029516103850006224,
+          "away_win_prob": 0.9610069091103072,
+          "predicted_winner": "Colombia"
+        },
+        {
+          "home": "Uzbekistan",
+          "away": "Colombia",
+          "home_win_prob": 0.0573196097458858,
+          "draw_prob": 0.48935838597999864,
+          "away_win_prob": 0.4533220042741155,
+          "predicted_winner": "Draw"
+        }
+      ],
+      "L": [
+        {
+          "home": "England",
+          "away": "Croatia",
+          "home_win_prob": 0.37023397926629914,
+          "draw_prob": 0.3324608332256954,
+          "away_win_prob": 0.29730518750800544,
+          "predicted_winner": "England"
+        },
+        {
+          "home": "England",
+          "away": "Ghana",
+          "home_win_prob": 0.46287412090259433,
+          "draw_prob": 0.35320489702390523,
+          "away_win_prob": 0.1839209820735005,
+          "predicted_winner": "England"
+        },
+        {
+          "home": "England",
+          "away": "Panama",
+          "home_win_prob": 0.6643349503765609,
+          "draw_prob": 0.31000532109451284,
+          "away_win_prob": 0.02565972852892619,
+          "predicted_winner": "England"
+        },
+        {
+          "home": "Croatia",
+          "away": "Ghana",
+          "home_win_prob": 0.3432443861370852,
+          "draw_prob": 0.4242228570098189,
+          "away_win_prob": 0.23253275685309593,
+          "predicted_winner": "Draw"
+        },
+        {
+          "home": "Croatia",
+          "away": "Panama",
+          "home_win_prob": 0.5489508594792649,
+          "draw_prob": 0.4148989370345252,
+          "away_win_prob": 0.036150203486209884,
+          "predicted_winner": "Croatia"
+        },
+        {
+          "home": "Ghana",
+          "away": "Panama",
+          "home_win_prob": 0.4944347236772894,
+          "draw_prob": 0.43976252156048984,
+          "away_win_prob": 0.06580275476222078,
+          "predicted_winner": "Ghana"
+        }
+      ]
+    },
+    "r32": [
+      {
+        "match_id": 73,
+        "home": "Czechia",
+        "away": "Bosnia and Herzegovina",
+        "home_win_prob": 0.22197205796918035,
+        "draw_prob": 0.26797918168545143,
+        "away_win_prob": 0.5100487603453682,
+        "predicted_winner": "Bosnia and Herzegovina"
+      },
+      {
+        "match_id": 74,
+        "home": "Brazil",
+        "away": "Sweden",
+        "home_win_prob": 0.43937135720543563,
+        "draw_prob": 0.45050575451071406,
+        "away_win_prob": 0.11012288828385028,
+        "predicted_winner": "Brazil"
+      },
+      {
+        "match_id": 75,
+        "home": "Germany",
+        "away": "Japan",
+        "home_win_prob": 0.637922035863595,
+        "draw_prob": 0.2785137797905316,
+        "away_win_prob": 0.08356418434587345,
+        "predicted_winner": "Germany"
+      },
+      {
+        "match_id": 76,
+        "home": "Netherlands",
+        "away": "Scotland",
+        "home_win_prob": 0.5850269169720684,
+        "draw_prob": 0.29659688354025376,
+        "away_win_prob": 0.11837619948767789,
+        "predicted_winner": "Netherlands"
+      },
+      {
+        "match_id": 77,
+        "home": "Ecuador",
+        "away": "Senegal",
+        "home_win_prob": 0.1750755070880031,
+        "draw_prob": 0.5136289797054817,
+        "away_win_prob": 0.3112955132065151,
+        "predicted_winner": "Ecuador"
+      },
+      {
+        "match_id": 78,
+        "home": "France",
+        "away": "Morocco",
+        "home_win_prob": 0.6078274948502179,
+        "draw_prob": 0.2685233666858675,
+        "away_win_prob": 0.12364913846391458,
+        "predicted_winner": "France"
+      },
+      {
+        "match_id": 79,
+        "home": "Mexico",
+        "away": "Norway",
+        "home_win_prob": 0.33239759877809094,
+        "draw_prob": 0.43927295047027765,
+        "away_win_prob": 0.22832945075163133,
+        "predicted_winner": "Mexico"
+      },
+      {
+        "match_id": 80,
+        "home": "England",
+        "away": "Uzbekistan",
+        "home_win_prob": 0.7877573348528627,
+        "draw_prob": 0.12771420515552387,
+        "away_win_prob": 0.08452845999161342,
+        "predicted_winner": "England"
+      },
+      {
+        "match_id": 81,
+        "home": "Belgium",
+        "away": "South Korea",
+        "home_win_prob": 0.35031142242662106,
+        "draw_prob": 0.5061850277656401,
+        "away_win_prob": 0.14350354980773894,
+        "predicted_winner": "Belgium"
+      },
+      {
+        "match_id": 82,
+        "home": "Turkey",
+        "away": "Algeria",
+        "home_win_prob": 0.5408965783629728,
+        "draw_prob": 0.3052630116984661,
+        "away_win_prob": 0.15384040993856118,
+        "predicted_winner": "Turkey"
+      },
+      {
+        "match_id": 83,
+        "home": "Spain",
+        "away": "Austria",
+        "home_win_prob": 0.349525770752883,
+        "draw_prob": 0.47547643395375155,
+        "away_win_prob": 0.17499779529336545,
+        "predicted_winner": "Spain"
+      },
+      {
+        "match_id": 84,
+        "home": "Colombia",
+        "away": "Croatia",
+        "home_win_prob": 0.24118929172483014,
+        "draw_prob": 0.33100436142428036,
+        "away_win_prob": 0.4278063468508894,
+        "predicted_winner": "Croatia"
+      },
+      {
+        "match_id": 85,
+        "home": "Switzerland",
+        "away": "Ivory Coast",
+        "home_win_prob": 0.32808876794771596,
+        "draw_prob": 0.3294945113441003,
+        "away_win_prob": 0.34241672070818374,
+        "predicted_winner": "Ivory Coast"
+      },
+      {
+        "match_id": 86,
+        "home": "Paraguay",
+        "away": "Egypt",
+        "home_win_prob": 0.4092592415189079,
+        "draw_prob": 0.3872438581204457,
+        "away_win_prob": 0.20349690036064647,
+        "predicted_winner": "Paraguay"
+      },
+      {
+        "match_id": 87,
+        "home": "Argentina",
+        "away": "Uruguay",
+        "home_win_prob": 0.3440395650236941,
+        "draw_prob": 0.38650254464357126,
+        "away_win_prob": 0.26945789033273465,
+        "predicted_winner": "Argentina"
+      },
+      {
+        "match_id": 88,
+        "home": "Portugal",
+        "away": "Ghana",
+        "home_win_prob": 0.4107959161331048,
+        "draw_prob": 0.3879407642513197,
+        "away_win_prob": 0.2012633196155755,
+        "predicted_winner": "Portugal"
+      }
+    ],
+    "r16": [
+      {
+        "match_id": 89,
+        "home": "Bosnia and Herzegovina",
+        "away": "Germany",
+        "home_win_prob": 0.05189881680341318,
+        "draw_prob": 0.46293189487929715,
+        "away_win_prob": 0.48516928831728967,
+        "predicted_winner": "Germany"
+      },
+      {
+        "match_id": 90,
+        "home": "Brazil",
+        "away": "Ecuador",
+        "home_win_prob": 0.769935462942727,
+        "draw_prob": 0.13161495092835987,
+        "away_win_prob": 0.09844958612891314,
+        "predicted_winner": "Brazil"
+      },
+      {
+        "match_id": 91,
+        "home": "Netherlands",
+        "away": "France",
+        "home_win_prob": 0.21470644956700427,
+        "draw_prob": 0.38665199148208546,
+        "away_win_prob": 0.39864155895091025,
+        "predicted_winner": "France"
+      },
+      {
+        "match_id": 92,
+        "home": "Mexico",
+        "away": "England",
+        "home_win_prob": 0.13164359425492844,
+        "draw_prob": 0.3547909509849988,
+        "away_win_prob": 0.5135654547600729,
+        "predicted_winner": "England"
+      },
+      {
+        "match_id": 93,
+        "home": "Spain",
+        "away": "Croatia",
+        "home_win_prob": 0.38620623828678613,
+        "draw_prob": 0.30869287163912584,
+        "away_win_prob": 0.30510089007408797,
+        "predicted_winner": "Spain"
+      },
+      {
+        "match_id": 94,
+        "home": "Belgium",
+        "away": "Turkey",
+        "home_win_prob": 0.2003697822956709,
+        "draw_prob": 0.3964957095775975,
+        "away_win_prob": 0.40313450812673174,
+        "predicted_winner": "Turkey"
+      },
+      {
+        "match_id": 95,
+        "home": "Paraguay",
+        "away": "Portugal",
+        "home_win_prob": 0.13558779397176962,
+        "draw_prob": 0.3571137454610124,
+        "away_win_prob": 0.507298460567218,
+        "predicted_winner": "Portugal"
+      },
+      {
+        "match_id": 96,
+        "home": "Ivory Coast",
+        "away": "Argentina",
+        "home_win_prob": 0.08779046446541178,
+        "draw_prob": 0.43138883948086754,
+        "away_win_prob": 0.4808206960537207,
+        "predicted_winner": "Argentina"
+      }
+    ],
+    "qf": [
+      {
+        "match_id": 97,
+        "home": "Germany",
+        "away": "Brazil",
+        "home_win_prob": 0.20254304219573813,
+        "draw_prob": 0.38489321667172194,
+        "away_win_prob": 0.4125637411325399,
+        "predicted_winner": "Brazil"
+      },
+      {
+        "match_id": 98,
+        "home": "France",
+        "away": "England",
+        "home_win_prob": 0.3616592718394562,
+        "draw_prob": 0.3576507005874779,
+        "away_win_prob": 0.280690027573066,
+        "predicted_winner": "France"
+      },
+      {
+        "match_id": 99,
+        "home": "Spain",
+        "away": "Turkey",
+        "home_win_prob": 0.28614704781475875,
+        "draw_prob": 0.40453691402488096,
+        "away_win_prob": 0.30931603816036035,
+        "predicted_winner": "Spain"
+      },
+      {
+        "match_id": 100,
+        "home": "Portugal",
+        "away": "Argentina",
+        "home_win_prob": 0.1782043871893898,
+        "draw_prob": 0.462003367079009,
+        "away_win_prob": 0.3597922457316012,
+        "predicted_winner": "Portugal"
+      }
+    ],
+    "sf": [
+      {
+        "match_id": 101,
+        "home": "Brazil",
+        "away": "France",
+        "home_win_prob": 0.3689054977150625,
+        "draw_prob": 0.3558118810194827,
+        "away_win_prob": 0.2752826212654548,
+        "predicted_winner": "Brazil"
+      },
+      {
+        "match_id": 102,
+        "home": "Spain",
+        "away": "Portugal",
+        "home_win_prob": 0.3186310193218007,
+        "draw_prob": 0.3333087317909578,
+        "away_win_prob": 0.3480602488872416,
+        "predicted_winner": "Portugal"
+      }
+    ],
+    "final": {
+      "match_id": 104,
+      "home": "Brazil",
+      "away": "Portugal",
+      "home_win_prob": 0.5339099429912634,
+      "draw_prob": 0.28292172691045303,
+      "away_win_prob": 0.18316833009828357,
+      "predicted_winner": "Brazil"
+    }
+  }
+}
